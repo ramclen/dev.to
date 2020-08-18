@@ -67,3 +67,17 @@ https://dev.to/\<YOUR DEV.TO NICKNAME\>
 ## Blog posts
 
 - [\<BLOG POST NAME\>](https://dev.to/\<BLOG POST LINK\>)
+
+
+## Using Create Post Tool
+
+Under folder tools, the script create-post.js will create needed folders for a new post and it will add a new entry on dev-to-git.json file.
+
+- First copy the config.json.dist and rename to  config.json and add your apiKey.
+- Second run the next command:
+
+``` bash
+./tools/create-post.js "My great post to dev.to"
+```
+
+It will do everything for you
